@@ -1,31 +1,15 @@
 {
-    "configurations": [
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Main",
-            "request": "launch",
-            "mainClass": "Main",
-            "projectName": "algs4j",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)",
-            "request": "launch",
-            "mainClass": "${fileBasenameNoExtension}",
-            "projectName": "algs4j",
-            "console": "integratedTerminal",
-            "preLaunchTask": "build",
-            "cwd": "${workspaceFolder}",
-            "stopOnEntry": false,
-            "sourcePaths": [
-                "src"
-            ],
-            "classPaths": [
-                "${workspaceFolder}/lib/algs4.jar",
-                "${workspaceFolder}/bin"
-            ],
-            "args": "${command:debug-arg.prompt}"
-        }
-    ]
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "stopOnEntry": false,
+      "projectName": "algs4j",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "preLaunchTask": "build",
+    }
+  ]
 }
